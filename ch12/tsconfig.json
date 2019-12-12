@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es6",
+    "strictNullChecks": true,
+    "removeComments": true,
+    // "lib":["es5","dom","es2015.promise"] => ES5와 프로미스를 결합해 컴파일 할 때 
+  },  
+  "exclude": [
+    "node_modules",
+    ".vscode"
+  ]
+}
