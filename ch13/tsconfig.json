@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es6",
+    "strictNullChecks": true,
+    "removeComments": true,
+    // "lib":["es5","dom","es2015.promise"] => ES5와 프로미스를 결합해 컴파일 할 때
+    // "types": ["jquery", "underscore"] => 타입 정의 파일을 프로젝트에 포함해 사용할 때.
+    "allowJs": true, // 타입스크립트 프로젝트에 자바스크립트 파일을 함께 컴파일할 수 있게
+  },  
+  "exclude": [
+    "node_modules",
+    ".vscode"
+  ]
+}
