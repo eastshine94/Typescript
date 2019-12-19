@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./test",
+    "target": "es5",
+    "module": "commonjs",
+    
+  },  
+  "exclude": [
+    "node_modules",
+    ".vscode"
+  ]
+}
+

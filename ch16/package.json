@@ -1,0 +1,27 @@
+{
+  "name": "ch16",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "complie": "gulp compile",
+    "test": "gulp test",
+    "mocha": "mocha test/**/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chai": "^4.2.7",
+    "@types/jquery": "^3.3.31",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.18",
+    "chai": "^4.2.0",
+    "gulp": "^4.0.2",
+    "gulp-mocha": "^7.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "jquery": "^3.4.1",
+    "jsdom": "^15.2.1",
+    "run-sequence": "^2.2.1",
+    "typescript": "^3.7.3"
+  }
+}

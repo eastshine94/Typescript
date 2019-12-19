@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var jsdom = require("jsdom");
+var JSDOM = jsdom.JSDOM;
+var fs = require("fs");
+var html = fs.readFileSync("src/dom/index.html", "utf-8");
+var doc = new JSDOM(html);
+var window = doc.window;
+console.log(window.document.documentElement.outerHTML);
+console.log(window.innerWidth);
+console.log(typeof window.document.getElementsByClassName);
