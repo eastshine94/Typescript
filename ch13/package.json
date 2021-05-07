@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "@types/underscore": "^1.9.4",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   }
 }
